@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         btnRemoveLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                client.removeLocationUpdates(mLocationCallback);
             }
         });
 
